@@ -1,0 +1,22 @@
+#cabecera {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(220, 249, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.logo {
+    border-radius: 40%;
+    height: 200px;
+    padding: 0;
+}
+
+.mensaje {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
